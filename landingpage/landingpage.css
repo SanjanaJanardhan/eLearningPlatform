@@ -1,45 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 
 body {
     margin: 0;
     padding: 5px;
-    font-family: Arial, sans-serif;
+    height: 100vh;
+    font-family: 'Source Code Pro', monospace;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: #9fd3c7;;
+    background-color: whitesmoke;
+    border:5px solid #000000;
 }
 
 #logo{
     height: 90px;
     width: 90px;
     padding: 20px;
-    z-index: 0;
+    padding-right: 10px;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid #142d4c;
+    border-bottom: 5px solid black;
     
 }
 .logoAndName{
     display: flex;
 }
 .company_name{
-    color: #142d4c;
-    font-size: x-large;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 31px;
     padding: 20px;
     padding-left: 0;
 }
 .About{
     padding-top: 40px;
     padding-right: 30px;
-    z-index: 0;
 }
 #About-btn{
-    background-color: #142d4c;
-    color: white;
+    background-color:black;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
     border-radius: 20px;
-    height: 50px;
+    height: 60px;
     width: 100px;
 }
 
@@ -53,18 +59,21 @@ nav{
 .herotext{
     margin: 30px;
 }
-.herotext > h1{
-    color: #142d4c;
+.herotext > h1, .herotext > p{
+    color: #000000;
+    font-family: 'Source Code Pro', monospace;
 }
-.logindiv{
+.logindiv,.sign-up-div{
     display:inline-block;
+    align-items: center;
     padding: 10px;
-    height: 350px;
+    height: 400px;
     width: 500px;
     border: 5px solid black;
-    color: white;;
+    color: whitesmoke;
     margin: 30px;
-    background-color: #142d4c;
+    background-color: #000000;
+    border-radius:7%;
 }
 .Email{
     display: flex;
@@ -78,23 +87,36 @@ nav{
 }
 .user-input-box{
     height: 20px;
-    margin-top: 23px;
     margin-left: 10px;
     width: 250px;
-    background-color: #ececec;
+    background-color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
 }
-.login-button-div{
+.login-button-div,.signup-button-div{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
-.login-btn{
-    background-color: #9fd3c7;;
-    color: white;;
+.login-btn,.signup-btn{
+    background-color: whitesmoke;
+    color: black;
+    font-size:medium;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 30px;
     border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
     width: 100px;
     height: 30px;
 }
-#sign-up-link{
-    color: #9fd3c7;;
+#sign-up-link,#log-in-link{
+    color: rgb(247, 210, 2);
+    cursor: pointer;
+}
+.sign-up-div{
+    display: none;
+}
+.loginAndSignup{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
 }

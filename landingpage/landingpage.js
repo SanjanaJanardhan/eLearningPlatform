@@ -1,3 +1,5 @@
+// This section is to toggle between the signup and login page
+
 const spans = document.getElementsByTagName("span");
 const login = spans[0];
 const signup = spans[1];
@@ -15,4 +17,4 @@ signup.addEventListener("click",()=>{
     main_landing.style.display = 'flex';
 });
 
-
+// Until here
