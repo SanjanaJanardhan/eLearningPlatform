@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./landingpage.css">
-    <title>Landing Page</title>
+    <title>Codify - Empower Your Coding Journey</title>
 </head>
 <body>
     <nav>
         <div class="logoAndName">
-            <img id="logo" src="../images/geometry2.jpg"><!--Logo goes here-->
-            <h3 class="company_name">Company_Name</h3>
+            <img id="logo" src="../images/owl.png" alt="Codify Logo">
+            <h1 class="company_name">Codify</h1>
         </div>
         <div class="About">
             <button id="About-btn">About Us</button>
@@ -18,25 +18,51 @@
     </nav>
     <div class="mainlanding">
         <div class="herotext">
-            <h1>Lorem ipsum dolor sit amet, eu neque ullamcorper, dignissim velit vel, ullamcorper risus.</h1>
+            <h1 align="center">Empower Your Coding Journey;</h1>
+            <p>Master programming languages with expert courses, effortlessly.</p>
         </div>
         <div class="logindiv">
             <h3 align="center">Sign In</h3>
+            <br>
             <div class="EmailAndPassword">
                 <div class="Email">
-                    <h4>Email ID:</h4>
-                    <input type="textbox" class="user-input-box">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" class="user-input-box">
                 </div>
+                <br>
                 <div class="Password">
-                    <h4>Password:</h4>
-                    <input type="password" class="user-input-box">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" class="user-input-box">
                 </div>
             </div>
+            <br>
+            <br>
             <div class="login-button-div">
-                <button class="login-btn" onclick="">Login</button>
+                <button class="login-btn">Login</button>
             </div>
-            <h3 align="center">New User? <a href="#" id="sign-up-link">Click here</a> to Sign up!</h3>
+            <h3 align="center">New User? <a href="#" id="sign-up-link">Sign up here</a>!</h3>
         </div>
+    </div>
+    <div class="sign-up-div">
+        <h3 align="center">Register with us!</h3>
+            <br>
+            <div class="EmailAndPassword">
+                <div class="Email">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" class="user-input-box">
+                </div>
+                <br>
+                <div class="Password">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" class="user-input-box">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="signup-button-div">
+                <button class="signup-btn">Login</button>
+            </div>
+            <h3 align="center">Have an Account? <a href="#" id="log-in-link">Login here</a>!</h3>
     </div>
 </body>
 </html>
