@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     background-color: whitesmoke;
     border:5px solid #000000;
+    color: whitesmoke;
 }
 
 #logo{
@@ -47,6 +48,7 @@ nav{
     border-radius: 20px;
     height: 60px;
     width: 100px;
+    cursor: pointer;
 }
 
 .mainlanding{
@@ -106,6 +108,7 @@ nav{
     border: 2px solid rgb(255, 255, 255);
     width: 100px;
     height: 30px;
+    cursor: pointer;
 }
 #sign-up-link,#log-in-link{
     color: rgb(247, 210, 2);
@@ -119,4 +122,46 @@ nav{
     justify-content: center;
     height: 80vh;
     align-items: center;
+}
+
+@media (max-width:800px) {
+    body{
+        background-color: whitesmoke;
+        overflow: visible;
+        border: none;
+    }
+    .mainlanding{
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        width: 100vw;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .logindiv{
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        height: 400px;
+        width: 450px;
+        border: 5px solid black;
+        color: whitesmoke;
+        margin: 0;
+        background-color: #000000;
+        border-radius:7%;
+    }
+    .sign-up-div{
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        height: 450px;
+        width: 450px;
+        border: 5px solid black;
+        color: whitesmoke;
+        margin: 0;
+        background-color: #000000;
+        border-radius:7%;
+
+    }
+
 }
