@@ -40,3 +40,4 @@ updateSignUpText();
 
 // Adding an event listener to the window's resize event
 window.addEventListener('resize', updateSignUpText);
+// tejas was here
