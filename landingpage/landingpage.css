@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
+/* Tejas was here! */
 
 body {
     margin: 0;
@@ -10,7 +10,7 @@ body {
     overflow: hidden;
     box-sizing: border-box;
     background-color: whitesmoke;
-    border:5px solid #000000;
+    /* border:5px solid #000000; */
     color: whitesmoke;
 }
 
